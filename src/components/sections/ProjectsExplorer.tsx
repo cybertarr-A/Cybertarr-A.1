@@ -76,8 +76,19 @@ const projectsData = [
         link: 'https://github.com/cybertarr-A/Image-Generator',
         metrics: ["Diffusion sampling", "VQGAN+CLIP embeddings", "Colab-optimized"],
         color: "#00E6FF" 
+    },
+    {
+        id: 8,
+        title: 'RepoMind AI',
+        category: 'AI / Developer Tool',
+        description: 'AI-powered GitHub repository analyzer using RAG, embeddings, and multi-model reasoning.',
+        tech: ['FastAPI', 'FAISS', 'LLM', 'Next.js'],
+        link: '#',
+        metrics: ["RAG-based analysis", "Multi-file reasoning", "Semantic code search"],
+        color: "#00FFA3"
     }
 ];
+
 
 export function ProjectsExplorer() {
   const [selectedId, setSelectedId] = useState<number | null>(null);
