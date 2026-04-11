@@ -86,7 +86,33 @@ const projectsData = [
         link: '#',
         metrics: ["RAG-based analysis", "Multi-file reasoning", "Semantic code search"],
         color: "#00FFA3"
-    }
+    },
+    {
+    id: 9,
+    title: 'CyberWarrior V4',
+    category: 'AI / Cybersecurity / Autonomous Systems',
+    description: 'Groq-powered autonomous bug bounty AI system with swarm intelligence, real-time vulnerability discovery, exploit chain reasoning, and advanced RAG-based threat analysis.',
+    tech: [
+        'FastAPI',
+        'Groq Cloud',
+        'FAISS',
+        'LLM',
+        'Redis',
+        'Nuclei',
+        'Nmap',
+        'Next.js'
+    ],
+    link: 'https://github.com/cybertarr-A/cyberwarrior_v4',
+    metrics: [
+        "Swarm-based parallel scanning",
+        "Groq ultra-fast AI reasoning",
+        "Attack chain generation engine",
+        "RAG-powered threat intelligence",
+        "Autonomous recon → exploit pipeline",
+        "HackerOne-style report generation"
+    ],
+    color: "#FF003C"
+}
 ];
 
 
