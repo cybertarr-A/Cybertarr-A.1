@@ -144,38 +144,40 @@ const projectsData = [
     ],
 
     color: "#00FFA3"
-}
-    {
-    id: 10,
-    title: 'BrainBase AI',
-    category: 'AI / Knowledge Systems / Cognitive Intelligence',
-    description: 'A next-generation AI knowledge operating system that transforms unstructured data into structured intelligence using embeddings, RAG pipelines, and multi-layer reasoning. BrainBase enables developers and teams to query, analyze, and synthesize knowledge across documents, codebases, and datasets in real time.',
-    
+},
+  {
+    id: 11,
+    title: 'PhishShield AI',
+    category: 'AI / Trust & Safety / Intelligent Detection Systems',
+
+    description: 'An AI-powered trust and safety platform that detects and classifies malicious URLs, emails, and web content in real time using machine learning and NLP models. PhishShield AI leverages feature-based analysis, text embeddings, and behavioral signals to provide instant threat scoring, enabling safer digital interactions for users and organizations.',
+
     tech: [
         'FastAPI',
-        'FAISS',
-        'PostgreSQL',
-        'OpenAI / LLM',
+        'Scikit-learn / XGBoost',
+        'NLP Models',
+        'PostgreSQL / MongoDB',
         'Redis',
         'Next.js',
         'Docker',
-        'Vector Embeddings'
+        'Feature Engineering Pipelines'
     ],
 
-    link: 'https://github.com/cybertarr-A/brainbase',
+    link: 'https://github.com/cybertarr-A/phishshield-ai',
 
     metrics: [
-        "RAG-powered knowledge retrieval engine",
-        "Semantic search across multi-source data",
-        "Context-aware AI reasoning pipelines",
-        "Vector database + embedding indexing",
-        "Real-time query → insight generation",
-        "Scalable knowledge ingestion system",
-        "Multi-document understanding",
-        "AI-assisted developer workflows"
+        "Real-time URL and content classification engine",
+        "Feature-based + NLP hybrid detection models",
+        "High-accuracy phishing prediction system",
+        "Lightweight API for instant inference",
+        "Scalable detection pipeline for web/email data",
+        "Behavioral and heuristic analysis integration",
+        "Interactive dashboard for threat insights",
+        "Modular ML training and evaluation pipeline"
     ],
 
-    color: "#00FFA3"
+    color: "#FF6B00"  
+
 }
 ];
 
