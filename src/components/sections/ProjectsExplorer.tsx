@@ -113,72 +113,56 @@ const projectsData = [
     ],
     color: "#FF003C"
 },
+        {
+        id: 10,
+        title: 'BrainBase AI',
+        category: 'AI / Knowledge Systems / Cognitive Intelligence',
+        description: 'A next-generation AI knowledge operating system that transforms unstructured data into structured intelligence using embeddings, RAG pipelines, and multi-layer reasoning.',
+        tech: [
+            'FastAPI',
+            'FAISS',
+            'PostgreSQL',
+            'OpenAI / LLM',
+            'Redis',
+            'Next.js',
+            'Docker',
+            'Vector Embeddings'
+        ],
+        link: 'https://github.com/cybertarr-A/brainbase',
+        metrics: [
+            "RAG-powered knowledge retrieval engine",
+            "Semantic search across multi-source data",
+            "Context-aware AI reasoning pipelines",
+            "Vector database + embedding indexing",
+            "Real-time query → insight generation",
+            "Scalable knowledge ingestion system"
+        ],
+        color: "#00FFA3"
+    },
     {
-    id: 10,
-    title: 'BrainBase AI',
-    category: 'AI / Knowledge Systems / Cognitive Intelligence',
-    description: 'A next-generation AI knowledge operating system that transforms unstructured data into structured intelligence using embeddings, RAG pipelines, and multi-layer reasoning. BrainBase enables developers and teams to query, analyze, and synthesize knowledge across documents, codebases, and datasets in real time.',
-    
-    tech: [
-        'FastAPI',
-        'FAISS',
-        'PostgreSQL',
-        'OpenAI / LLM',
-        'Redis',
-        'Next.js',
-        'Docker',
-        'Vector Embeddings'
-    ],
-
-    link: 'https://github.com/cybertarr-A/brainbase',
-
-    metrics: [
-        "RAG-powered knowledge retrieval engine",
-        "Semantic search across multi-source data",
-        "Context-aware AI reasoning pipelines",
-        "Vector database + embedding indexing",
-        "Real-time query → insight generation",
-        "Scalable knowledge ingestion system",
-        "Multi-document understanding",
-        "AI-assisted developer workflows"
-    ],
-
-    color: "#00FFA3"
-},
-  {
-    id: 11,
-    title: 'PhishShield AI',
-    category: 'AI / Trust & Safety / Intelligent Detection Systems',
-
-    description: 'An AI-powered trust and safety platform that detects and classifies malicious URLs, emails, and web content in real time using machine learning and NLP models. PhishShield AI leverages feature-based analysis, text embeddings, and behavioral signals to provide instant threat scoring, enabling safer digital interactions for users and organizations.',
-
-    tech: [
-        'FastAPI',
-        'Scikit-learn / XGBoost',
-        'NLP Models',
-        'PostgreSQL / MongoDB',
-        'Redis',
-        'Next.js',
-        'Docker',
-        'Feature Engineering Pipelines'
-    ],
-
-    link: 'https://github.com/cybertarr-A/phishshield-ai',
-
-    metrics: [
-        "Real-time URL and content classification engine",
-        "Feature-based + NLP hybrid detection models",
-        "High-accuracy phishing prediction system",
-        "Lightweight API for instant inference",
-        "Scalable detection pipeline for web/email data",
-        "Behavioral and heuristic analysis integration",
-        "Interactive dashboard for threat insights",
-        "Modular ML training and evaluation pipeline"
-    ],
-
-    color: "#FF6B00"  
-
-}
+        id: 11,
+        title: 'PhishShield AI',
+        category: 'AI / Trust & Safety / Intelligent Detection Systems',
+        description: 'An AI-powered trust and safety platform that detects and classifies malicious URLs, emails, and web content in real time using machine learning and NLP models.',
+        tech: [
+            'FastAPI',
+            'Scikit-learn / XGBoost',
+            'NLP Models',
+            'PostgreSQL / MongoDB',
+            'Redis',
+            'Next.js',
+            'Docker'
+        ],
+        link: 'https://github.com/cybertarr-A/phishshield-ai',
+        metrics: [
+            "Real-time URL and content classification engine",
+            "Feature-based + NLP hybrid detection models",
+            "High-accuracy phishing prediction system",
+            "Lightweight API for instant inference",
+            "Scalable detection pipeline"
+        ],
+        color: "#FF6B00"
+    }
 ];
 
 
