@@ -162,7 +162,52 @@ const projectsData = [
             "Scalable detection pipeline"
         ],
         color: "#FF6B00"
-    }
+    },
+    {
+    id: 12,
+    title: 'VOIDGUARD',
+    category: 'AI / Cybersecurity / Autonomous Defense',
+    description: 'An advanced AI-driven cybersecurity defense system designed to detect, analyze, and neutralize threats in real time using intelligent automation, anomaly detection, and adaptive security strategies.',
+    tech: [
+        'FastAPI',
+        'AI',
+        'Cybersecurity',
+        'Automation',
+        'Docker',
+        'Redis'
+    ],
+    link: 'https://github.com/cybertarr-A/voidguard',
+    metrics: [
+        "Real-time threat detection engine",
+        "Autonomous response system",
+        "AI-driven anomaly analysis",
+        "Scalable microservice architecture",
+        "Security orchestration workflows"
+    ],
+    color: "#FF003C"
+},
+{
+    id: 13,
+    title: 'SkillGhost AI',
+    category: 'AI / Cognitive Systems / Skill Intelligence',
+    description: 'An experimental AI system focused on skill replication and intelligence modeling, enabling simulation, learning, and transfer of human-like skills through AI-driven cognitive architectures.',
+    tech: [
+        'AI',
+        'Neural Systems',
+        'LLM',
+        'Python',
+        'Cognitive Modeling'
+    ],
+    link: 'https://github.com/cybertarr-A/skillghost-ai',
+    metrics: [
+        "Skill simulation engine",
+        "Cognitive pattern modeling",
+        "AI-driven learning abstraction",
+        "Experimental neural architecture",
+        "Future-ready skill transfer system"
+    ],
+    color: "#00FFA3"
+}
 ];
 
 export function ProjectsExplorer() {
